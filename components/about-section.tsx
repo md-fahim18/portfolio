@@ -1,13 +1,14 @@
-"use client"
+"use client";
 
-import { Card } from "@/components/ui/card"
-import { Code, Rocket, Users, Zap } from "./icons"
+import { Card } from "@/components/ui/card";
+import { Code, Rocket, Users, Zap } from "./icons";
 
 const highlights = [
   {
     icon: Code,
     title: "Clean Code",
-    description: "Writing maintainable, scalable code that stands the test of time",
+    description:
+      "Writing maintainable, scalable code that stands the test of time",
   },
   {
     icon: Rocket,
@@ -22,9 +23,10 @@ const highlights = [
   {
     icon: Zap,
     title: "Innovation",
-    description: "Staying current with the latest technologies and best practices",
+    description:
+      "Staying current with the latest technologies and best practices",
   },
-]
+];
 
 export function AboutSection() {
   return (
@@ -38,20 +40,23 @@ export function AboutSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-muted-foreground text-pretty">
-              I'm a passionate Full Stack Developer with expertise in building modern web applications that deliver
-              exceptional user experiences. My journey in software development has taken me across various industries,
-              from startups to enterprise solutions.
+              I'm a passionate Full Stack Developer with expertise in building
+              modern web applications that deliver exceptional user experiences.
+              I build scalable, pixel-perfect digital experiences that blend
+              thoughtful design with robust engineering.
             </p>
 
             <p className="text-lg text-muted-foreground text-pretty">
-              Currently, I specialize in React, Node.js, and cloud technologies, focusing on creating scalable
-              applications that solve real-world problems. I believe in writing clean, maintainable code and staying
-              up-to-date with the latest industry trends.
+              Currently, I specialize in React, Node.js, and cloud technologies,
+              focusing on creating scalable applications that solve real-world
+              problems. I believe in writing clean, maintainable code and
+              staying up-to-date with the latest industry trends.
             </p>
 
             <p className="text-lg text-muted-foreground text-pretty">
-              When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or
-              sharing knowledge with the developer community.
+              When I'm not coding, you'll find me exploring new technologies,
+              contributing to open-source projects, or sharing knowledge with
+              the developer community.
             </p>
           </div>
 
@@ -61,7 +66,9 @@ export function AboutSection() {
                 <Card className="p-6 glass hover:bg-card/90 transition-colors duration-300 flex flex-col flex-1">
                   <highlight.icon className="h-8 w-8 text-primary mb-4" />
                   <h3 className="font-semibold mb-2">{highlight.title}</h3>
-                  <p className="text-sm text-muted-foreground text-pretty flex-1">{highlight.description}</p>
+                  <p className="text-sm text-muted-foreground text-pretty flex-1">
+                    {highlight.description}
+                  </p>
                 </Card>
               </div>
             ))}
@@ -69,5 +76,5 @@ export function AboutSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }

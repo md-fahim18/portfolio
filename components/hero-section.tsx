@@ -42,9 +42,10 @@ export function HeroSection() {
             </div>
 
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto lg:mx-0 text-pretty leading-relaxed">
-              I build scalable, pixel-perfect digital experiences that blend
-              thoughtful design with robust engineering. Specializing in React,
-              Node.js, and modern web technologies.
+              Innovative and results-driven ETE Engineer with strong expertise
+              in software development, web technologies, and IoT systems.
+              Skilled in building robust, scalable, and user-centric
+              applications using React.js, Next.js, Node.js and Tailwind CSS.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center lg:items-start lg:justify-start justify-center gap-4">
@@ -52,6 +53,16 @@ export function HeroSection() {
                 <a href="#projects" className="flex items-center gap-2">
                   View My Work
                   <ArrowDown className="h-4 w-4 group-hover:translate-y-1 transition-transform" />
+                </a>
+              </Button>
+              <Button size="lg" className="group">
+                <a
+                  href="/Fahim_RUET_Resume.pdf"
+                  target="_blank" // open in new tab
+                  rel="noopener noreferrer" // security best practice
+                  className="flex items-center gap-2"
+                >
+                  Download CV
                 </a>
               </Button>
 

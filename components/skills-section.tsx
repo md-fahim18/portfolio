@@ -1,8 +1,8 @@
-"use client"
+"use client";
 
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { Code, Database, Wrench } from "./icons"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Code, Database, Wrench } from "./icons";
 
 const skillCategories = [
   {
@@ -13,14 +13,10 @@ const skillCategories = [
       "Next.js",
       "TypeScript",
       "JavaScript",
-      "Vue.js",
       "Tailwind CSS",
       "Framer Motion",
-      "React Query",
-      "Zustand",
       "HTML5",
       "CSS3",
-      "SASS",
     ],
   },
   {
@@ -30,14 +26,10 @@ const skillCategories = [
       "Node.js",
       "Express.js",
       "Python",
-      "FastAPI",
-      "PostgreSQL",
+      "MySQL",
       "MongoDB",
-      "Redis",
-      "GraphQL",
       "REST APIs",
       "Prisma",
-      "Supabase",
       "Firebase",
     ],
   },
@@ -46,31 +38,29 @@ const skillCategories = [
     icon: Wrench,
     skills: [
       "Git",
-      "Docker",
-      "AWS",
+      "GitHub",
+      "Netlify",
       "Vercel",
-      "GitHub Actions",
-      "Jest",
-      "Cypress",
-      "Webpack",
       "Vite",
       "ESLint",
       "Prettier",
       "Figma",
     ],
   },
-]
+];
 
 export function SkillsSection() {
   return (
     <section id="skills" className="py-20 lg:py-32">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4">Skills & Technologies</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold mb-4">
+            Skills & Technologies
+          </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto mb-6" />
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-pretty">
-            I work with a diverse set of technologies to build robust, scalable applications that meet modern web
-            standards and user expectations.
+            I work with a diverse set of technologies to build robust, scalable
+            applications that meet modern web standards and user expectations.
           </p>
         </div>
 
@@ -88,7 +78,7 @@ export function SkillsSection() {
                       <div key={skill}>
                         <Badge
                           variant="secondary"
-                          className="hover:bg-primary hover:text-primary-foreground transition-colors duration-200 cursor-default"
+                          className="hover:bg-primary text-[12px] hover:text-primary-foreground transition-colors duration-200 cursor-default"
                         >
                           {skill}
                         </Badge>
@@ -102,5 +92,5 @@ export function SkillsSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }

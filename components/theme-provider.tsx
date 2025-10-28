@@ -3,12 +3,12 @@
 import { createContext, useContext, useState, useEffect } from "react";
 
 const ThemeContext = createContext({
-  theme: "light", // ✅ default is light
+  theme: "dark", // ✅ default is now dark
   setTheme: (theme: "light" | "dark") => {},
 });
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
-  const [theme, setTheme] = useState<"light" | "dark">("light"); // ✅ default light
+  const [theme, setTheme] = useState<"light" | "dark">("dark"); // ✅ default dark
 
   // Optional: load saved theme from localStorage
   useEffect(() => {
