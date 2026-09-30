@@ -57,7 +57,7 @@ export function HeroSection() {
               </Button>
               <Button size="lg" className="group">
                 <a
-                  href="/Fahim_RUET_Resume.pdf"
+                  href="/api/cv"
                   target="_blank" // open in new tab
                   rel="noopener noreferrer" // security best practice
                   className="flex items-center gap-2"
@@ -108,7 +108,7 @@ export function HeroSection() {
               {/* Main Image */}
               <div className="relative w-80 h-80 sm:w-96 sm:h-96 rounded-full overflow-hidden border-2 border-white/20 bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl shadow-2xl">
                 <img
-                  src="/images/design-mode/image.png"
+                  src="/api/photo"
                   alt="Fahim Hossain Zarif - Full Stack Developer"
                   className="w-full h-full object-cover scale-105 hover:scale-110 transition-transform duration-700"
                 />
