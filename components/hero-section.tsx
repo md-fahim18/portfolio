@@ -26,7 +26,7 @@ export function HeroSection() {
           <div className="space-y-8 text-center lg:text-left relative z-20">
             <div className="space-y-6">
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-balance leading-tight">
-                <span className="gradient-text">Fahim Hossain Zarif</span>
+                <span className="gradient-text">MD FAHIM</span>
               </h1>
 
               <div className="h-12 sm:h-14 flex items-center justify-center lg:justify-start">
