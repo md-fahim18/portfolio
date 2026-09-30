@@ -32,7 +32,7 @@ export async function POST(request: NextRequest) {
         return NextResponse.json({ error: "CV must be under 10MB" }, { status: 400 });
       }
       const blob = await put(CV_BLOB_PATHNAME, file, {
-        access: "public",
+        access: "private",
         addRandomSuffix: false,
         allowOverwrite: true,
         contentType: file.type,
@@ -48,7 +48,7 @@ export async function POST(request: NextRequest) {
         return NextResponse.json({ error: "Photo must be under 5MB" }, { status: 400 });
       }
       const blob = await put(PHOTO_BLOB_PATHNAME, file, {
-        access: "public",
+        access: "private",
         addRandomSuffix: false,
         allowOverwrite: true,
         contentType: file.type,
