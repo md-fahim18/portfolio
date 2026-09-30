@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 
 export function HeroSection() {
   const [currentRole, setCurrentRole] = useState(0);
-  const roles = ["Web Developer", "Engineer", "Problem Solver"];
+  const roles = ["Software Engineer", "Problem Solver"];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -26,7 +26,7 @@ export function HeroSection() {
           <div className="space-y-8 text-center lg:text-left relative z-20">
             <div className="space-y-6">
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-balance leading-tight">
-                <span className="gradient-text">MD FAHIM</span>
+                <span className="gradient-text">Md Fahim</span>
               </h1>
 
               <div className="h-12 sm:h-14 flex items-center justify-center lg:justify-start">
@@ -42,10 +42,7 @@ export function HeroSection() {
             </div>
 
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto lg:mx-0 text-pretty leading-relaxed">
-              Innovative and results-driven ETE Engineer with strong expertise
-              in software development, web technologies, and IoT systems.
-              Skilled in building robust, scalable, and user-centric
-              applications using React.js, Next.js, Node.js and Tailwind CSS.
+              Software Engineer experienced in building full-stack web applications with React, Next.js, Node.js, Express, MongoDB, SQL, and REST APIs. I focus on scalable architecture, clean code, responsive interfaces, authentication, and practical problem-solving. RUET engineering graduate, currently pursuing an Master's degree at BUET.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center lg:items-start lg:justify-start justify-center gap-4">
