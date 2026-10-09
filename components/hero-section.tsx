@@ -41,7 +41,7 @@ export function HeroSection() {
               </div>
             </div>
 
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto lg:mx-0 text-pretty leading-relaxed">
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto lg:mx-0 text-justify leading-relaxed">
               Software Engineer experienced in building full-stack web applications with React, Next.js, Node.js, Express, MongoDB, SQL, and REST APIs. I focus on scalable architecture, clean code, responsive interfaces, authentication, and practical problem-solving. RUET engineering graduate, currently pursuing an Master's degree at BUET.
             </p>
 
