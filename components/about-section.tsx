@@ -39,21 +39,21 @@ export function AboutSection() {
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <p className="text-lg text-muted-foreground text-pretty">
+            <p className="text-lg text-muted-foreground text-justify">
               I'm a passionate Full Stack Developer with expertise in building
               modern web applications that deliver exceptional user experiences.
               I build scalable, pixel-perfect digital experiences that blend
               thoughtful design with robust engineering.
             </p>
 
-            <p className="text-lg text-muted-foreground text-pretty">
+            <p className="text-lg text-muted-foreground text-justify">
               Currently, I specialize in React, Node.js, and cloud technologies,
               focusing on creating scalable applications that solve real-world
               problems. I believe in writing clean, maintainable code and
               staying up-to-date with the latest industry trends.
             </p>
 
-            <p className="text-lg text-muted-foreground text-pretty">
+            <p className="text-lg text-muted-foreground text-justify">
               When I'm not coding, you'll find me exploring new technologies,
               contributing to open-source projects, or sharing knowledge with
               the developer community.
