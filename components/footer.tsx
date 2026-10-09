@@ -8,7 +8,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-center md:text-left">
             <p className="text-muted-foreground">
-              © {new Date().getFullYear()} Made by Fahim Hossain. All
+              © {new Date().getFullYear()} Made by Md. Fahim. All
               rights reserved.
             </p>
             {/* <p className="text-sm text-muted-foreground mt-1">Built with Next.js, Tailwind CSS, and Framer Motion</p> */}
