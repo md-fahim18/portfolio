@@ -16,7 +16,7 @@ const projects = [
     title: "Bornobyte EduTech Platform",
     description:
       "A modern, full-stack e-learning platform. It features secure authentication, video-based courses, dynamic progress tracking, and a clean, responsive dashboard for students and instructors. Designed to deliver a smooth and engaging online learning experience across all devices..",
-    image: "/public/images/bornoByte.png",
+    image: "/public/images/bornobyte.png",
     technologies: [
       "React",
       "Node.js",
