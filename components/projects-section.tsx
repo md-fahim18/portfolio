@@ -25,7 +25,7 @@ const projects = [
       "Firebase",
       "Tailwind CSS",
     ],
-    liveUrl: "https://bornobyte-edu.web.app/",
+    liveUrl: "https://borno-9e597.web.app/",
     githubUrl: "https://github.com/md-fahim18/BornoByte-Edutech",
   },
   {
