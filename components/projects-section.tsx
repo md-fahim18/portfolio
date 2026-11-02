@@ -16,7 +16,7 @@ const projects = [
     title: "Bornobyte EduTech Platform",
     description:
       "A modern, full-stack e-learning platform. It features secure authentication, video-based courses, dynamic progress tracking, and a clean, responsive dashboard for students and instructors. Designed to deliver a smooth and engaging online learning experience across all devices..",
-    image: "https://i.ibb.co.com/BVqxYh7J/image.png",
+    image: "/public/images/bornoByte.png",
     technologies: [
       "React",
       "Node.js",
@@ -32,7 +32,7 @@ const projects = [
     title: "Security Company",
     description:
       "A professional, full-featured website for a security services company. It showcases services, team information, and client testimonials in a clean, responsive, and modern interface, emphasizing trust, reliability, and brand professionalism.",
-    image: "https://i.ibb.co.com/DPxB3r14/image.png",
+    image: "/public/images/vanguards.png.png",
     technologies: [
       "React.js",
       "HTML5",
@@ -47,7 +47,7 @@ const projects = [
     title: "Todos Productive dashboard",
     description:
       "A sleek, modern workspace which brings together task management, Pomodoro timing, notes and inspirational quotes into a unified, responsive dashboard.",
-    image: "https://i.ibb.co.com/N2pnCwBT/image.png",
+    image: "/public/images/todos.png",
     technologies: ["React", "Tailwind", "Javascript", "HTML5", "Framer-Motion"],
     liveUrl: "https://todos-dashboard.netlify.app/",
     githubUrl: "https://github.com/md-fahim18/Productivity-AI",
@@ -56,7 +56,7 @@ const projects = [
     title: "News Portal Global",
     description:
       "This is a dynamic, real-time news portal built with React.js and deployed on Vercel. It aggregates the latest headlines from multiple sources, offering users a seamless experience across various categories such as World, Technology, Sports, and Entertainment.",
-    image: "https://i.ibb.co.com/6Jv1BmvP/image.png",
+    image: "/public/images/news-portal.png",
     technologies: ["React.js", "Tailwind", "DaisyUI", "Javascript", "News API"],
     liveUrl: "https://newsportalglobal.vercel.app/",
     githubUrl: "https://github.com/md-fahim18/News-Portal",
