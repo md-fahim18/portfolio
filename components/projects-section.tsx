@@ -32,7 +32,7 @@ const projects = [
     title: "Security Company",
     description:
       "A professional, full-featured website for a security services company. It showcases services, team information, and client testimonials in a clean, responsive, and modern interface, emphasizing trust, reliability, and brand professionalism.",
-    image: "/public/images/vanguards.png.png",
+    image: "/public/images/vanguards.png",
     technologies: [
       "React.js",
       "HTML5",
